@@ -1,15 +1,19 @@
 <template>
-  <div class="full-width center-content">
-    <h1>Hello World!</h1>
+  <div>
+    <hello></hello>
   </div>
 </template>
-<style scoped>
-  .full-width {
-    width: 100%;
-  }
-  .center-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
+<script>
+  import Hello from './components/Hello.vue';
+
+  export default {
+    components: {
+      Hello
+    }
+  };
+</script>
+
+<style>
+
 </style>

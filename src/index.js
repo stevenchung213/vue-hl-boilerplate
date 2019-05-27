@@ -1,5 +1,5 @@
-import Vue from 'vue';
-import Main from './Main.vue';
+import Vue from 'vue'
+import Main from './Main.vue'
 
 new Vue({
   el: '#root',
